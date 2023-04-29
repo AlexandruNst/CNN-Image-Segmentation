@@ -2,6 +2,8 @@
 # CNN for Cardiac MR Image Segmentation
 
 # Preview
+![image1.png](segmentation_images/image1.png)
+
 This is a group project for building a CNN with PyTorch. The task is to create a model that given an input image of a Cardiac MRI scans, it will ouput the semantic sementation of the image into different anatomical zones. One of the unique challenges of the data we had was the distribution of classes, in particular the fact that the "background region" class 0 was prevalent in every image. This could easily provide CNNs with the trap of "learning" to classify everything as 0 and it would provide good accuracy by default.
 
 The data set consisted of:
@@ -12,10 +14,10 @@ The data set consisted of:
 Here's a preview of some sample results:
 
 
-![image1.png](segmentation_images/image1.png)
-![image1.png](segmentation_images/image3.png)
+![image1.png](segmentation_images/image2.png)
 ![image1.png](segmentation_images/image5.png)
 ![image1.png](segmentation_images/image10.png)
+![image1.png](segmentation_images/image14.png)
 ![image1.png](segmentation_images/image16.png)
 
 # Introduction
