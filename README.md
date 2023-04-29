@@ -20,6 +20,14 @@ Here's a preview of some sample results:
 ![image1.png](segmentation_images/image14.png)
 ![image1.png](segmentation_images/image16.png)
 
+The chosen CNN architecture: U-Net
+
+![image1-2.png](readme_images/image1-2.png)
+
+Diagram of the U-Net architecture. - (Ronneberger, Fischer and Brox,
+2015)
+
+
 # Introduction
 
 We were tasked with generating a semantic segmentation of CMR images
